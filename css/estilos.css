@@ -1,0 +1,240 @@
+header {
+	text-align: center;
+	background-color: #3bbff3;
+	padding: 0.3rem;
+	font-family: arial;
+	border-bottom: 0.2rem solid black;
+}
+
+body {
+	background: #cdeb8b; /* Navegadores antiguos */
+	background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', endColorstr='#cdeb8b',GradientType=0 ); /* IE6-9 */
+}
+
+figure {
+	margin: 0;
+}
+
+#bodyPortada {
+	margin:0 auto;
+	width: 60rem;
+}
+
+#bodyCaracteristicas {
+	margin: 0 auto;
+	width: 60rem;
+	text-align: center;
+}
+
+#bodyCaracteristicas img {
+	width: 100%;
+	height: 100%;
+}
+
+.imagenLibro {
+	width: 100%;
+	height: 100%;
+}
+
+#bodyInfo {
+	width: 60rem;
+	margin: 0 auto;
+}
+
+#bodyEncuesta {
+	width: 60rem;
+	margin: 0 auto;
+}
+	
+#mainPortada {
+	margin-right: 7rem;
+	margin-top: 4.5rem;
+	float: none;
+}
+
+#mainEncuesta {
+	margin-top: 1rem;
+}
+
+.mainCaracteristicas {
+	width: 20rem;
+	margin-top: 0rem;
+	margin-left: 7rem;
+	float: left;
+}
+
+.asideCaracteristicas {
+	width: 20rem;
+	margin-top: 0rem;
+	float: left;
+}
+
+.asideCaracteristicas details {
+	margin-top: -0.2rem;
+}
+
+.bodyResultado {
+	width: 60rem;
+	margin: 0 auto;
+}
+
+.mainResultado {
+	margin-top: 1rem;
+}
+
+.mainResultado p {
+	font-family: arial;
+	font-weight: bold;
+	background-color: #3BBFF3;
+	text-align: center;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	box-shadow: 2px 2px 5px #999;
+}
+
+.mainResultado img {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.5rem;
+	box-shadow: 2px 2px 5px #999;
+}
+
+#bodyCaracteristicas h3 {
+	color: white;
+	background-color: black;
+	padding: 1rem;
+}
+
+#bodyCaracteristicas img {
+	border-radius: 0.5rem;
+	box-shadow: 2px 2px 5px #999;
+}
+
+.info {
+	font-size: 1rem;
+	font-family: arial;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    
+    -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2rem; /* Firefox */
+    column-gap: 2rem;
+    
+    -webkit-column-rule: 5px solid rgb(59, 191, 243); /* Chrome, Safari, Opera */
+    -moz-column-rule: 5px solid rgb(59, 191, 243); /* Firefox */
+    column-rule: 5px solid rgb(59, 191, 243);
+    
+    -webkit-column-rule: 0.5rem solid rgb(59, 191, 243); /* Chrome, Safari, Opera */
+    -moz-column-rule: 0.5rem solid rgb(59, 191, 243); /* Firefox */
+    column-rule: 0.5rem solid rgb(59, 191, 243);
+    
+    margin: 1rem;
+    margin: 2rem;
+}
+
+aside {
+	display: block;
+	width: 20rem;
+	float: left;
+	margin-top: 4rem;
+	margin-right: -12rem;
+	margin-left: 3rem;
+}
+
+aside img:hover {
+	filter: none;
+    transition: all 0.5s ease;
+    box-shadow: 2px 2px 5px #999;
+    background-color: #f4f7f7;
+}
+
+aside img {
+	display: block;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	color: black;
+	width: 60rem;
+	height: 2rem;
+	padding-bottom: 0.9rem;
+	padding-left: 0.9rem;
+	background: #CEF44F;
+	border-top: 2px solid #000;
+	position: absolute;
+	bottom: 0;
+	font-family: courier;
+	text-align: left;
+}
+
+footer address {
+	float: right;
+	padding-top: 1rem;
+	padding-right: 1rem;
+}
+
+footer p {
+	float: left;
+}
+
+details {
+	cursor: pointer;
+}
+
+.tituloSummary {
+	font-family: arial;
+	font-weight: bold;
+}
+
+.textoSummary {
+	font-family: tahoma;
+}
+
+.clear {
+	clear: both;
+}
+
+#formulario {
+	text-align: justify;
+	margin-left: 8rem;
+	font-family: arial;
+}
+
+#textoEncuesta {
+	margin-left: 14rem;
+	font-family: arial;
+}
+
+#escribirCosas {
+	font-family: arial;
+	font-weight: bold;
+	background-color: #CEF44F;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.volverInicio {
+	float: left;
+	position: absolute;
+	right: 4rem;
+	bottom: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: 2px 2px 5px #999;
+    background-color:#f5f5f5;
+}
+
+#cajaTexto {
+	font-family: arial;
+	font-size: 5rem;
+	font-weight: bold;
+}

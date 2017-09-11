@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script type="text/javascript" src="./js/funciones.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Encuesta PC</title>
+</head>
+
+<body id="bodyEncuesta">
+    <header>
+        <h1>¿QUÉ ORDENADOR NECESITAS?</h1>
+    </header>
+    <main id="mainEncuesta">
+        <form name="rellenar" action="" method="post" id="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="John Dhoe" id="nombre" autofocus">
+            <label for="email">Correo electrónico</label>
+            <input type="email" name="email" placeholder="algo@gmail.com" id="mail">
+            <label for="number">Edad</label>
+            <input type="number" name="edad" min="0" max="90" value="" placeholder="3" id="age" onblur="datosUsuario()">
+            <br>
+            <br>
+            <div id="textoEncuesta">
+                <label for="encuesta1">¿Vas a escribir textos?</label><br>
+                <input type="radio" name="encuesta1" value="1">Ninguno<br>
+                <input type="radio" name="encuesta1" value="2">Alguno<br>
+                <input type="radio" name="encuesta1" value="3">Bastantes<br>
+                <input type="radio" name="encuesta1" value="4">Muchos<br>
+                <br>
+                <label for="encuesta2">¿Vas a utilizar herramientas de diseño gráfico?</label><br>
+                <input type="radio" name="encuesta2" value="1">Ninguna<br>
+                <input type="radio" name="encuesta2" value="2">Alguna<br>
+                <input type="radio" name="encuesta2" value="4">Bastantes<br>
+                <input type="radio" name="encuesta2" value="5">Muchas<br>
+                <br>
+                <label for="encuesta3">¿Vas a jugar a juegos?</label><br>
+                <input type="radio" name="encuesta3" value="1">Ninguno<br>
+                <input type="radio" name="encuesta3" value="2">Alguno<br>
+                <input type="radio" name="encuesta3" value="5">Bastantes<br>
+                <input type="radio" name="encuesta3" value="6">Muchos<br>
+                <br>
+                <label for="encuesta4">¿Vas a editar vídeos?</label><br>
+                <input type="radio" name="encuesta4" value="1">Ninguno<br>
+                <input type="radio" name="encuesta4" value="2">Alguno<br>
+                <input type="radio" name="encuesta4" value="5">Bastantes<br>
+                <input type="radio" name="encuesta4" value="6">Muchos<br>
+                <br>
+                <button type="button" name="ver" onclick="comprobarCheck()">Enviar</button>
+            </div>
+        </form>
+        <progress value="0" max="100" id="progressBar">Progreso</progress>
+    </main>
+</body>
+
+</html>

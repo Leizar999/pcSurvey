@@ -1,0 +1,10 @@
+HTML5 + CSS3
+
+El tema será libre, se deberá hacer un tipo test y se utilizarán todos los datos de formulario que se puedan:
+    -Barras de progreso
+    -campos de email
+    -nombre, correo, edad... etc.
+Una página donde se muestre el resultado con la recomendación en base a las respuestas marcadas.
+Hay que buscar un icono significativo, escoger un buen diseño y todo hay que hacerlo en javascript.
+
+Fecha de entrega, principios de noviembre.
